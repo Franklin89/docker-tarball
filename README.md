@@ -1,6 +1,6 @@
 # docker-tarball
 
-Very simple way to integrate a splitted tarball in a image. The splitted tarball in this project is a ver simple hello world webpage.
+Very simple docker image hosting a simple webpage that was packaged as a splitted tarball
 
 ## Build
 
@@ -12,6 +12,12 @@ docker build -t docker-tarball .
 
 ```bash
 docker run -p 8080:80 -d docker-tarball
+```
+
+or take the the image on docker hub
+
+```bash
+docker run -p 8080:80 -d franklin89/docker-tarball
 ```
 
 Then start up a browser and check that the Hello World page is displayed
