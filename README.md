@@ -14,7 +14,7 @@ docker build -t docker-tarball .
 docker run -p 8080:80 -d docker-tarball
 ```
 
-or take the the image on docker hub
+or take the image from docker hub.
 
 ```bash
 docker run -p 8080:80 -d franklin89/docker-tarball
@@ -22,7 +22,7 @@ docker run -p 8080:80 -d franklin89/docker-tarball
 
 Then start up a browser and check that the Hello World page is displayed
 
-### Sample
+### Sample web page that should be displayed
 
 ```html
 <html>
