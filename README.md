@@ -4,21 +4,21 @@ Very simple way to integrate a splitted tarball in a image. The splitted tarball
 
 ## Build
 
-´´´bash
+```bash
 docker build -t docker-tarball .
-´´´
+```
 
 ## Run
 
-´´´bash
+```bash
 docker run -p 8080:80 -d docker-tarball
-´´´
+```
 
 Then start up a browser and check that the Hello World page is displayed
 
 ### Sample
 
-´´´html
+```html
 <html>
 <head>
     <title>Hello World</title>
@@ -27,4 +27,4 @@ Then start up a browser and check that the Hello World page is displayed
     <h1>Hello World</h1>
 </body>
 </html>
-´´´
+```
