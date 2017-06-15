@@ -18,3 +18,6 @@ RUN cd tmp && tar -xf backup.tar.gz.joined
 
 # move the extracted data to /usr/share/nginx/html
 RUN cd /tmp/src && mv * /usr/share/nginx/html
+
+# remove temporary folder again
+RUN rm -rf /tmp 
